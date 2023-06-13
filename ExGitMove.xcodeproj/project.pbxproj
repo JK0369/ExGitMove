@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4A3AFBC32A3896D70009507A /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3AFBC22A3896D70009507A /* CustomButton.swift */; };
+		4A2E4B622A389C50003BA356 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2E4B612A389C4F003BA356 /* CustomButton.swift */; };
 		4AE0CF542A38955600DEC866 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE0CF532A38955600DEC866 /* AppDelegate.swift */; };
 		4AE0CF562A38955600DEC866 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE0CF552A38955600DEC866 /* SceneDelegate.swift */; };
 		4AE0CF582A38955600DEC866 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE0CF572A38955600DEC866 /* ViewController.swift */; };
@@ -17,7 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4A3AFBC22A3896D70009507A /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		4A2E4B612A389C4F003BA356 /* CustomButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 		4AE0CF502A38955600DEC866 /* ExGitMove.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExGitMove.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AE0CF532A38955600DEC866 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4AE0CF552A38955600DEC866 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -39,12 +39,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4A3AFBC12A3896D10009507A /* Views */ = {
+		4A2E4B602A389C4F003BA356 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				4A3AFBC22A3896D70009507A /* CustomButton.swift */,
+				4A2E4B612A389C4F003BA356 /* CustomButton.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		4A3AFBC52A3899B60009507A /* Apps */ = {
+			isa = PBXGroup;
+			children = (
+				4A2E4B602A389C4F003BA356 /* Views */,
+			);
+			path = Apps;
 			sourceTree = "<group>";
 		};
 		4AE0CF472A38955500DEC866 = {
@@ -66,7 +74,7 @@
 		4AE0CF522A38955600DEC866 /* ExGitMove */ = {
 			isa = PBXGroup;
 			children = (
-				4A3AFBC12A3896D10009507A /* Views */,
+				4A3AFBC52A3899B60009507A /* Apps */,
 				4AE0CF532A38955600DEC866 /* AppDelegate.swift */,
 				4AE0CF552A38955600DEC866 /* SceneDelegate.swift */,
 				4AE0CF572A38955600DEC866 /* ViewController.swift */,
@@ -150,9 +158,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4AE0CF582A38955600DEC866 /* ViewController.swift in Sources */,
-				4A3AFBC32A3896D70009507A /* CustomButton.swift in Sources */,
 				4AE0CF542A38955600DEC866 /* AppDelegate.swift in Sources */,
 				4AE0CF562A38955600DEC866 /* SceneDelegate.swift in Sources */,
+				4A2E4B622A389C50003BA356 /* CustomButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

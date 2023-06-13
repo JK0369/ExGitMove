@@ -13,6 +13,7 @@ class ViewController: UIViewController {
         button.setTitle("타이틀", for: .normal)
         button.setTitleColor(.systemBlue, for: .normal)
         button.setTitleColor(.blue, for: .highlighted)
+        button.addTarget(self, action: #selector(didTapButton), for: .touchUpInside)
         button.translatesAutoresizingMaskIntoConstraints = false
         return button
     }()
@@ -20,5 +21,9 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+    }
+    
+    @objc private func didTapButton() {
+        
     }
 }

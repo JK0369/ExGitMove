@@ -8,6 +8,15 @@
 import UIKit
 
 class ViewController: UIViewController {
+    private let button: UIButton = {
+        let button = UIButton()
+        button.setTitle("타이틀", for: .normal)
+        button.setTitleColor(.systemBlue, for: .normal)
+        button.setTitleColor(.blue, for: .highlighted)
+        button.translatesAutoresizingMaskIntoConstraints = false
+        return button
+    }()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
